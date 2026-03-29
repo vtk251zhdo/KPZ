@@ -11,7 +11,8 @@ class Authenticator
         echo "Authenticator створено" . PHP_EOL;
     }
 
-    private function __clone() {}
+    private function __clone()
+    {}
 
     public function __wakeup()
     {
